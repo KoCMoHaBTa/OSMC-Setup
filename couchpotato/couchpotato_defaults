@@ -1,0 +1,3 @@
+CP_HOME=/opt/couchpotato/
+CP_DATA=/opt/couchpotato/
+CP_USER=osmc
