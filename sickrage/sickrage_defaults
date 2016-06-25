@@ -1,3 +1,3 @@
-SR_HOME=/opt/sickrage/
-SR_DATA=/opt/sickrage/
+SR_HOME=/home/osmc/Install/sickrage/
+SR_DATA=/home/osmc/Install/sickrage/
 SR_USER=osmc

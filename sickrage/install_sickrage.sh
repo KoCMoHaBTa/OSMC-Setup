@@ -1,10 +1,9 @@
 #!/bin/bash
 
-sudo git clone https://github.com/SickRage/SickRage.git /opt/sickrage
-sudo chown -R osmc:osmc /opt/sickrage
+git clone https://github.com/SickRage/SickRage.git /home/osmc/Install/sickrage
 
 sudo cp sickrage_defaults /etc/default/sickrage
-sudo cp /opt/sickrage/runscripts/init.ubuntu /etc/init.d/sickrage
+sudo cp /home/osmc/Install/sickrage/runscripts/init.ubuntu /etc/init.d/sickrage
 sudo chmod +x /etc/init.d/sickrage
 
 sudo chmod +x /etc/default/sickrage
