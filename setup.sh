@@ -23,9 +23,19 @@ INSTALL_STORAGE=$2
 [ -n "$MEDIA_STORAGE" ] || fail "No media storage path provided"
 [ -n "$INSTALL_STORAGE" ] || fail "No install storage path provided"
 
-basic/setup_home_osmc.sh $MEDIA_STORAGE $INSTALL_STORAGE
-basic/install_dependencies.sh
+cd basic
+./setup_home_osmc.sh $MEDIA_STORAGE $INSTALL_STORAGE
+./install_dependencies.sh
+cd ..
 
-transmission/configure_transmission.sh
-couchpotato/install_couchpotato.sh
-sickrage/install_sickrage.sh
+cd transmission
+./configure_transmission.sh
+cd ..
+
+cd couchpotato
+./install_couchpotato.sh
+cd .. 
+
+cd sickrage
+./install_sickrage.sh
+cd ..
