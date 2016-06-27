@@ -38,10 +38,10 @@ In order to have automounted smb share, for example from a NAS drive, add the fo
 	
 Where:
 
-- <your_ip_address> - is the IP address of your SMB share
-- <share_name> - is the name of your SMB share
-- <share_username> - is the username, required to access your SMB share
-- <share_passowrd> - is the password, required to access your SMB share
+- \<your_ip_address\> - is the IP address of your SMB share
+- \<share_name\> - is the name of your SMB share
+- \<share_username\> - is the username, required to access your SMB share
+- \<share_passowrd\> - is the password, required to access your SMB share
 
 
 
