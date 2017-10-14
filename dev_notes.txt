@@ -1,2 +1,3 @@
 http://forum.xbian.org/thread-2650.html
 www.htpcbeginner.com/install-sickrage-on-ubuntu/
+https://www.htpcguides.com/install-jackett-raspberry-pi-for-custom-torrents-in-sonarr/
