@@ -1,6 +1,6 @@
 # OSMC-Setup
 
-###OSMC Media Center Setup Scripts
+### OSMC Media Center Setup Scripts
 
 
 1. Install OSMC
@@ -25,12 +25,12 @@
 	- install storage path - the path where sickrage and couchpotato will be installed, for example `/home/osmc/`
 	
 	
-###Configurations
+### Configurations
 
 The setup will apply preloaded configurations of transmission, couchpotato and sickrage. The configuration files can be found in their respective directories.
 Feel free to inspect and modify them before running the setup.
 
-###SMB automount
+### SMB automount
 
 In order to have automounted smb share, for example from a NAS drive, add the following line at the end of `/etc/fstab` and modify it for your use case.
 
