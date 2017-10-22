@@ -40,6 +40,6 @@ cd sickrage
 ./install_sickrage.sh
 cd ..
 
-cd jackett
-./install_jackett.sh
-cd ..
+#cd jackett
+#./install_jackett.sh
+#cd ..
