@@ -15,4 +15,4 @@ sudo apt-get install p7zip-full -y
 sudo apt-get install unrar -y
 
 #install some other dependencies
-sudo apt-get install python-cheetah git-core libcurl4-openssl-dev jq -y
+sudo apt-get install python-cheetah git-core libcurl4-openssl-dev jq nodejs -y
