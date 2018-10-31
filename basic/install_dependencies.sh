@@ -16,3 +16,6 @@ sudo apt-get install unrar -y
 
 #install some other dependencies
 sudo apt-get install python-cheetah git-core libcurl4-openssl-dev jq nodejs -y
+
+#install sickrage specific dependencies
+sudo apt-get install python-setuptools build-essential python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev zlib1g-dev -y
