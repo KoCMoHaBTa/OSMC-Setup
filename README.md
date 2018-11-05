@@ -30,6 +30,11 @@
 The setup will apply preloaded configurations of transmission, couchpotato and sickrage. The configuration files can be found in their respective directories.
 Feel free to inspect and modify them before running the setup.
 
+### Automatic post processing after torrent has been downloaded
+
+Go to `~/Downloads` and edit `torrent-done.sh` file.
+Replace the SR_API_KEY and CP_API_KEY with your API keys respectively for Sickrage and CouchPotato.
+
 ### SMB automount
 
 In order to have automounted smb share, for example from a NAS drive, add the following line at the end of `/etc/fstab` and modify it for your use case.
