@@ -4,7 +4,7 @@
 rm -Rf /home/osmc/Install/sickrage
 
 #clone the repo
-git clone git@github.com:SickChill/SickChill.git /home/osmc/Install/sickrage
+git clone https://github.com/SickRage/SickRage.git /home/osmc/Install/sickrage
 
 #copy the preloaded configuration
 cp sickrage_config.ini /home/osmc/Install/sickrage/config.ini
