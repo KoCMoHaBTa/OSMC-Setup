@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SR_API_KEY=dda2872252d9c377d43e8ffd451f9b59
+SR_API_KEY=7d2690dc6a3093fce39aea998ee4d729
 CP_API_KEY=22bd1c8b35a7429985547f5a349f7b3d
 
 #trigger sickrage post processing for TVShows dir
