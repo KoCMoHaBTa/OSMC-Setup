@@ -11,7 +11,7 @@ cp sickchill_config.ini /home/osmc/Install/sickchill/config.ini
 
 #setup the service
 sudo cp sickchill_defaults /etc/default/sickchill
-sudo cp /home/osmc/Install/sickchill/runscripts/init.ubuntu /etc/init.d/sickchill
+sudo cp /home/osmc/Install/sickchill/contrib/runscripts/init.ubuntu /etc/init.d/sickchill
 sudo chmod +x /etc/init.d/sickchill
 
 sudo chmod +x /etc/default/sickchill
